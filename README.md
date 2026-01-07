@@ -19,7 +19,7 @@ Ce TD a pour but de nous faire manipuler GitHub afin de :
 
 ### Installation des dépendances
 ```bash
-pip install nom_dependance
+pip install -r requirements.txt
 ```
 
 ### Exécuter l'application
