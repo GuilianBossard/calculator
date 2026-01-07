@@ -1,14 +1,5 @@
 # calculator
 
-## Run calculator
-
-### Sum
-
-Example : 
-```bash
-python src/main.py -op sum -val1 1 -val2 2
-```
-
 ## DevOps : Culture, Méthodes et Outils - TD1
 Ce TD a pour but de nous faire manipuler GitHub afin de :
  - collaborer efficacement sur un dépôt GitHub
@@ -23,11 +14,14 @@ pip install -r requirements.txt
 ```
 
 ### Exécuter l'application
+#### Sum
+Example : 
 ```bash
-python  src/main.py
+python src/main.py -op sum -val1 1 -val2 2
 ```
 
 ### Exécuter les tests
 ```bash
-python  tests/test_calculator.py
+python -m coverage run -m unittest tests/test_calculator.py
+coverage report -m
 ```
