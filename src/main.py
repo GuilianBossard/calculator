@@ -13,5 +13,9 @@ if __name__ == '__main__':
 
     if args.operation == 'sum':
         print(f'{args.first_value} + {args.second_value} = {calc.mysum(args.first_value, args.second_value)}')
+
+    elif args.operation == 'moy':
+        print(f'Moyenne de {args.first_value} et {args.second_value} = {calc.moyenne(args.first_value, args.second_value)}')
+
     else :
         print('The function is not taken into account in our calculator')

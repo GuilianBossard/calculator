@@ -20,6 +20,12 @@ Example :
 python src/main.py -op sum -val1 1 -val2 2
 ```
 
+#### Moy
+Example :
+```bash
+python src/main.py -op moy -val1 1 -val2 2
+```
+
 ### Exécuter les tests
 ```bash
 python -m coverage run -m unittest tests/test_calculator.py
