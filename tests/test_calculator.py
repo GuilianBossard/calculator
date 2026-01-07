@@ -9,7 +9,7 @@ class TestCalculator(TestCase):
         self.assertEqual(self.calc.mysum(1, 2), 3)
 
     def test_moyenne(self):
-        self.assertEqual(self.calc.moyenne(1, 2), 1.5)
+        self.assertEqual(self.calc.mymoy(1, 2), 1.5)
     
 if __name__ == '__main__':
     unittest.main()
