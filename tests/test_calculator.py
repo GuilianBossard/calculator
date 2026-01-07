@@ -9,7 +9,7 @@ class TestCalculator(TestCase):
         self.assertEqual(self.calc.mysum(1, 2), 3)
 
     def test_min(self):
-        self.assertEqual(self.calc.min(5, 3), 3)
+        self.assertEqual(self.calc.mymin(5, 3), 3)
     
     
 if __name__ == '__main__':

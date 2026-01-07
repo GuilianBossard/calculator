@@ -14,6 +14,6 @@ if __name__ == '__main__':
     if args.operation == 'sum':
         print(f'{args.first_value} + {args.second_value} = {calc.mysum(args.first_value, args.second_value)}')
     elif args.operation == 'min':
-        print(f'min({args.first_value}, {args.second_value}) = {calc.min(args.first_value, args.second_value)}')
+        print(f'mymin({args.first_value}, {args.second_value}) = {calc.mymin(args.first_value, args.second_value)}')
     else :
         print('The function is not taken into account in our calculator')
