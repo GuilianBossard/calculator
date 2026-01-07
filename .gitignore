@@ -1,1 +1,3 @@
-*.coverage, venv
+*.coverage, 
+*.venv
+__pycache__/
